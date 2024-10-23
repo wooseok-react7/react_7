@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+.title {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 200%;
+    margin: right 40px;
+    padding: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+.title a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+.title2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.title3-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 550px;
+}
+
+.title_pont {
+    font-family: "Protest Strike", sans-serif;
+
+}
+
+
+.title4-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 400px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* background-image: url( ); */
+}
+
+.menu-image {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    width: 100px !important;
+    height: auto;
+    z-index: 1;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.menu li {
+    margin-left: 20px;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.search-dd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 400px;
+    height: 300px; 
+    width: 100%; 
+    max-width: 2000px; 
+    box-sizing: border-box; 
+}
+
+.search-div {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-box {
+    width: 100%;
+    max-width: 600px; 
+    padding: 10px;
+}
+
+.search-input {
+    width: 100%; 
+    height: 40px; 
+    font-size: 17px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+}
+
+.login-gg {
+    margin-right: 100px;
+}
+
+.login-btn {
+    margin-left: 50px;
+    padding: 5px 10px;
+    right: 50px;
+    background-color: #41a7eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10%;
+}
+
+.login-btn:hover {
+    background-color: #555;
+}
+
+.modal_title {
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.login-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-radius: 5%;
+}
+
+.login-modal input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 7px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.close-btn {
+    padding: 5px 10px;
+    background-color: white;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 1%;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+}
+
+.click_btn {
+    background-color: #41a7eb;
+    border-radius: 20%;
+    padding: 50px;
+}

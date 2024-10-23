@@ -1,0 +1,41 @@
+#all-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#movie-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#tv-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+
+.poster {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+  margin: auto auto auto auto;
+  border-radius: 10%;
+  box-shadow: 0px 0px 1px 1px;
+}
+
+.mTitle {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
+
+.mRating {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 125px;
+}
+

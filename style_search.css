@@ -1,0 +1,36 @@
+.search-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    height: 0px;
+}
+
+.movie-item {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    border-radius: 30%;
+
+}
+
+.movie-item img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    margin: auto auto auto auto;
+    border-radius: 10%;
+    box-shadow: 0px 0px 1px 1px;
+}
+
+.sTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
