@@ -1,4 +1,4 @@
-const TMDB_API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMWUwMmM4YWQzMjIxOTY1YTViZGZkMGZkYTBlYzQ1ZiIsIm5iZiI6MTcyOTIxMjQyNC4xODAyNzIsInN1YiI6IjY3MGRlNjU4MGI4MDA1MzdkNzVjYzIxZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ._P4layWoKHs8I1rBVCRUdzDD-hrjqfy4M5UsHHuIHec';
+const TMDB_API_KEY = '';
 const tvContainer = document.getElementById("tv-container");
 
 
